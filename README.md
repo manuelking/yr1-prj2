@@ -5,7 +5,7 @@ To view this project, visit: https://selene.hud.ac.uk/u1959809/yr1prj2/assign2.h
 ## About this project
 ### Assignment: Introduction to Web Programming - Assignment 2
 
-Programming anguages and tools: HTML, CSS, JavaScript.
+Programming languages and tools: HTML, CSS, JavaScript.
 
 #### About: 
 We were required to build a 'Phone Contract Finder' application that had to be developed using HTML, CSS and JavaScript. It would allow users to enter preferences for the type of phone they would like (brand, monthly cost, minutes etc.) and, based on these preferences, the application would recommend suitable phones and plans (phone contracts).
