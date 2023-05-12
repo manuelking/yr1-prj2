@@ -1,10 +1,10 @@
 # yr1-prj2
 
-## About
+### About
 
 This project is a about
 
-## Information
+### Information
 
 Module:
 - Something
