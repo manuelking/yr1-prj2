@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Assignment 2: Mobile Phone Contract Finder</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="text-center">
+    <button type="button" class="btn btn-info btn-large text-white my-2 mx-2" data-toggle="modal" data-target="#exampleModalCenter">
+      Learn about this project!
+    </button>
+  </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">About this project</h5>
+            </button>
+          </div>
+          <div class="modal-body">
+          <h1>Assignment: Introduction to Web Programming - Assignment 2</h1><br>
+            <p>
+              Programming anguages and tools: HTML, CSS, JavaScript.<br><br>
+              About: We were required to build a 'Phone Contract Finder' application that had to be developed 
+              using HTML, CSS and JavaScript. It would allow users to enter preferences for the type of phone 
+              they would like (brand, monthly cost, minutes etc.) and, based on these preferences, the application
+               would recommend suitable phones and plans (phone contracts). <br><br>
+            How to use: <br> 
+            1. Enter a brand<br>
+            2. Enter a minimum data allowance<br>
+            3. Enter a minimum number of talk minutes<br>
+            4. Enter a minimum text allowance<br>
+            5. Enter a minimum monthly cost<br>
+            6. Observe the plan(s) that match your preferences <br><br> 
+
+            Contracts: <br> Shown below are all the possible phone contracts. <br><br>
+            
+            - {phone : "iphone XS", brand : "Apple", monthly : 43, data : "500MB", minutes : "Unlimited", texts :  "Unlimited"}, <br><br>
+            - {phone : "iphone 11", brand : "Apple", monthly : 64, data : "90GB", minutes : "Unlimited", texts : "Unlimited"},<br><br>
+            - {phone : "Galaxy S10", brand : "Samsung", monthly : 30, data : "20GB", minutes : "Unlimited", texts : "Unlimited"},<br><br>
+            - {phone : "Galaxy S10", brand : "Samsung", monthly : 65, data : "Unlimited", minutes : "Unlimited", texts : "Unlimited"},<br><br>
+            - {phone : "Galaxy A10", brand : "Samsung", monthly : 11.99, data : "500MG", minutes : "250", texts : "Unlimited"},<br><br>
+            - {phone : "Galaxy S9", brand : "Samsung", monthly : 31, data : "20GB", minutes : "Unlimited", texts : "Unlimited"},<br><br>
+            - {phone : "StarTAC 130", brand : "Motorola", monthly : 3, data : "0MG", minutes : "200", texts : "500"},<br><br>
+            - {phone : "Pixel 3A", brand : "Google", monthly : 23, data : "4GB", minutes : "Unlimited", texts : "Unlimited"},<br><br>
+            - {phone : "Xperia 10", brand : "Sony", monthly : 30, data : "20GB", minutes : "Unlimited", texts : "Unlimited"},<br><br>
+            - {phone : "P30", brand : "Huawei", monthly : 27.99, data : "500MG", minutes : "500", texts : "Unlimited"},<br><br>
+            <p>
+
+            
+    
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="header">
+    <a href="assign2.html"><img src="img/upgradearrow.jpg" alt="logo"></a>
+  </div>
+
+  <nav>
+    <ul>
+      <div class="comment">
+      <li><p>FIND YOUR IDEAL CELLPHONE CONTRACT!</li>
+    </div>
+      <li><a href="html/login.html">LOGIN</a></li>
+      <li><a href="html/signup.html">SIGN UP</a></li>
+      <li><a href="html/About.html">ABOUT</a></li>
+      <li><a href="assign2.html">HOME</a></li>
+    </ul>
+  </nav>
+
+<br>
+
+<section class="text-center">
+<h4>Enter your requirements to find the best deal for you.</h4>
+
+<br><br>
+
+<form>
+
+<fieldset>
+  <legend>What brand do you want?</legend>
+  <label for="apple">Apple</label>
+  <input type="radio" name="question" id="apple" value="Apple"/>
+  <label for="samsung">Samsung</label>
+  <input type="radio" name="question" id="samsung" value="Samsung"/>
+  <label for="google">Google</label>
+  <input type="radio" name="question" id="google" value="Google"/>
+  <label for="sony">Sony</label>
+  <input type="radio" name="question" id="sony" value="Sony"/>
+  <label for="huawei">Huawei</label>
+  <input type="radio" name="question" id="huawei" value="Huawei"/>
+  <label for="motorola">Motorola</label>
+  <input type="radio" name="question" id="motorola" value="Motorola"/>
+</fieldset>
+
+<br>
+
+<fieldset>
+  <legend>How much data do you want?</legend>
+  <label for="Unlimited">Unlimited</label>
+  <input type="radio" name="questiondta" id="unlimited" value="Unlimited"/>
+  <label for="90GB">90GB</label>
+  <input type="radio" name="questiondta" id="90GB" value="90GB"/>
+  <label for="20GB">20GB</label>
+  <input type="radio" name="questiondta" id="20GB" value="20GB"/>
+  <label for="4GB">4GB</label>
+  <input type="radio" name="questiondta" id="4GB" value="4GB"/>
+  <label for="500MB">500MB</label>
+  <input type="radio" name="questiondta" id="500MB" value="500MB"/>
+  <label for="0MB">0MB</label>
+  <input type="radio" name="questiondta" id="0MB" value="0MB"/>
+</fieldset>
+
+<br>
+
+<fieldset>
+  <legend>How many minutes do you want?</legend>
+  <label for="Unlimited">Unlimited</label>
+  <input type="radio" name="questionmin" id="unlimited" value="Unlimited"/>
+  <label for="500">500</label>
+  <input type="radio" name="questionmin" id="500" value="500"/>
+  <label for="250">250</label>
+  <input type="radio" name="questionmin" id="250" value="250"/>
+  <label for="200">200</label>
+  <input type="radio" name="questionmin" id="200" value="200"/>
+</fieldset>
+
+<br>
+
+<fieldset>
+  <legend>How much texts do you want?</legend>
+  <label for="Unlimited">Unlimited</label>
+  <input type="radio" name="questiontxt" id="unlimited" value="Unlimited"/>
+  <label for="500">500</label>
+  <input type="radio" name="questiontxt" id="500" value="500"/>
+</fieldset>
+
+<br>
+
+<div>
+<label for="search">What is your maximum montly budget?</label>
+<input id="search" type="number" >
+</div>
+
+<br><br>
+
+<div class="button">
+  <input type="button" id="myButton" value="FIND!">
+</div>
+
+</form>
+</section>
+<br><br>
+
+<footer>
+<div class="footer">
+<div>
+Contact Us:<br>
+Customer service chat<br>
+Email - query@cellupgrade.com<br>
+Phone - 0113 844 5365
+</div>
+
+<div>
+  Socials:<br>
+  Facebook - Cell Upgrade<br>
+  Snapchat - cell_upgrade<br>
+  Twitter - @cellupgrade
+</div>
+
+<div>
+  Privacy Policies<br>
+  Terms and Conditions<br>
+  Copyrights
+</div>
+</div>
+</footer>
+
+<script src="js/assign2.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.7.2/css/all.css"></script>
+
+
+</body>
+</html>
